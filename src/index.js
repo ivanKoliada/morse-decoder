@@ -51,7 +51,7 @@ function decode(expr) {
       }
    }
 
-   return result.join(',').replace(/,/g, '');
+   return result.join('');
 }
 
 module.exports = {
